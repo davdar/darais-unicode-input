@@ -609,7 +609,7 @@ noremap! \Phi Φ
 noremap! \Chi Χ
 noremap! \Psi Ψ
 noremap! \Omega Ω
-noremap! \Nabla ∇
+noremap! \nabla ∇
 noremap! \alpha α
 noremap! \beta β
 noremap! \gamma γ
@@ -635,7 +635,7 @@ noremap! \phi φ
 noremap! \chi χ
 noremap! \psi ψ
 noremap! \omega ω
-noremap! \nabla ∂
+noremap! \partial ∂
 noremap! \varepsilon ϵ
 noremap! \vartheta ϑ
 noremap! \varkappa ϰ

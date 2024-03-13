@@ -609,7 +609,7 @@ s/⧘Phi⧙/Φ/g
 s/⧘Chi⧙/Χ/g
 s/⧘Psi⧙/Ψ/g
 s/⧘Omega⧙/Ω/g
-s/⧘Nabla⧙/∇/g
+s/⧘nabla⧙/∇/g
 s/⧘alpha⧙/α/g
 s/⧘beta⧙/β/g
 s/⧘gamma⧙/γ/g
@@ -635,7 +635,7 @@ s/⧘phi⧙/φ/g
 s/⧘chi⧙/χ/g
 s/⧘psi⧙/ψ/g
 s/⧘omega⧙/ω/g
-s/⧘nabla⧙/∂/g
+s/⧘partial⧙/∂/g
 s/⧘varepsilon⧙/ϵ/g
 s/⧘vartheta⧙/ϑ/g
 s/⧘varkappa⧙/ϰ/g

@@ -609,7 +609,7 @@ t﹙-_-t﹚  fkit
 Χ  Chi
 Ψ  Psi
 Ω  Omega
-∇  Nabla
+∇  nabla
 α  alpha
 β  beta
 γ  gamma
@@ -635,7 +635,7 @@ t﹙-_-t﹚  fkit
 χ  chi
 ψ  psi
 ω  omega
-∂  nabla
+∂  partial
 ϵ  varepsilon
 ϑ  vartheta
 ϰ  varkappa
