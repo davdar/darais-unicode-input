@@ -1,0 +1,30 @@
+.test1 {
+  font-family:  "XDejaVuSansMono", "Last Resort High-Efficiency";
+}
+.test2 { 
+  font-family: "DejaVu Sans Mono"
+               ,"DejaVu Math TeX Gyre"
+               ,"Quivira"
+               ,"Symbola"
+               ,"Arial Unicode MS"
+               ,"Last Resort High-Efficiency"
+               ;
+}
+.test3 {
+  font-family:  "DejaVu Sans Mono", "Last Resort High-Efficiency";
+}
+.test4 {
+  font-family: "DejaVu Math TeX Gyre", "Last Resort High-Efficiency";
+}
+.test5 {
+  font-family: "Quivira", "Last Resort High-Efficiency";
+}
+.test6 {
+  font-family: "Symbola", "Last Resort High-Efficiency";
+}
+.test7 {
+  font-family:  "Arial Unicode MS", "Last Resort High-Efficiency";
+}
+.test8 {
+  font-family: "Iosevka Fixed", "Last Resort High-Efficiency";
+}
