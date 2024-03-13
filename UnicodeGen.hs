@@ -1345,7 +1345,7 @@ codes =
   , lmcode "Χ" "Chi"      "X"
   , lmcode "Ψ" "Psi"      "\\Psi"
   , lmcode "Ω" "Omega"    "\\Omega"
-  , lmcode "∇" "Nabla"    "\\nabla"
+  , lmcode "∇" "nabla"    "\\nabla"
 
   , lmcode "α" "alpha"    "\\alpha"
   , lmcode "β" "beta"     "\\beta"
@@ -1372,7 +1372,7 @@ codes =
   , lmcode "χ" "chi"      "\\chi"
   , lmcode "ψ" "psi"      "\\psi"
   , lmcode "ω" "omega"    "\\omega"
-  , lmcode "∂" "nabla"    "\\partial"
+  , lmcode "∂" "partial"    "\\partial"
 
   , lmcode "ϵ" "varepsilon" "\\varepsilon"
   , lmcode "ϑ" "vartheta"   "\\vartheta"
