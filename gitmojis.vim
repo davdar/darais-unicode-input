@@ -71,3 +71,13 @@ noremap! \techn 🧑‍💻
 noremap! \moneyw 💸
 noremap! \thread 🧵
 noremap! \safety 🦺
+
+# languages
+noremap! \rust 🦀
+noremap! \go 🐹
+noremap! \java ☕
+noremap! \haskell λ
+noremap! \python 🐍 
+noremap! \git 
+noremap! \docker 🐳
+noremap! \package 📦
