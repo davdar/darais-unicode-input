@@ -80,4 +80,3 @@ noremap! \haskell λ
 noremap! \python 🐍 
 noremap! \git 
 noremap! \docker 🐳
-noremap! \package 📦
