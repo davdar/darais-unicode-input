@@ -45,7 +45,7 @@ noremap! \loud_sound 🔊
 noremap! \mute 🔇
 noremap! \silh 👥
 noremap! \ccrossing 🚸
-noremap! \constr 🏗️
+noremap! \crane 🏗️
 noremap! \iphone 📱
 noremap! \clown 🤡
 noremap! \egg 🥚
