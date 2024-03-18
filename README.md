@@ -39,3 +39,24 @@ This is an alternative unicode input mode for Emacs, Vim and Atom.
 
 - See `unicode-input.txt` for a list of all characters and their input codes
   (each implicitly preceded by `\`).
+
+## Small Sample of Symbols and Input Codes
+
+|--------|------------|
+| Symbol | Input Code |
+|--------|------------|
+| `\`    | `\\`       |
+| `→`    | `\r`       |
+| `⇒`    | `\r=`      |
+| `←`    | `\l`       |
+| `∷`    | `\::`      |
+| `∀`    | `\all`     |
+| `∃`    | `\ex`      |
+| `★`    | `\starb`   |
+| `⧺`    | `\++`      |
+| `⊔`    | `\j`       |
+| `⊓`    | `\m`       |
+| `⊤`    | `\top`     |
+| `⊥`    | `\bot`     |
+| `×`    | `\x`       |
+|--------|------------|
