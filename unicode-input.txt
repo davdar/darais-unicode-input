@@ -389,7 +389,7 @@
 ∎  qed
 ⌿  -/
 ∿  sin
-∾  link
+∾  shook
 ⋈  bow
 ⧖  hour
 ⋉  bowl
@@ -1715,3 +1715,4 @@ t﹙-_-t﹚  fkit
 λ  haskell
 🐍   python
 🐳  docker
+🔗  link

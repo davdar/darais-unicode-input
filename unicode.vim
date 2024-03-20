@@ -389,7 +389,7 @@ noremap! \O ○
 noremap! \qed ∎
 noremap! \-/ ⌿
 noremap! \sin ∿
-noremap! \link ∾
+noremap! \shook ∾
 noremap! \bow ⋈
 noremap! \hour ⧖
 noremap! \bowl ⋉
@@ -1715,3 +1715,4 @@ noremap! \java ☕
 noremap! \haskell λ
 noremap! \python 🐍 
 noremap! \docker 🐳
+noremap! \link 🔗

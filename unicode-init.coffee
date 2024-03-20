@@ -1715,3 +1715,4 @@ atom.commands.add 'atom-text-editor', 'custom:insert-☕': -> atom.workspace.get
 atom.commands.add 'atom-text-editor', 'custom:insert-λ': -> atom.workspace.getActiveTextEditor()?.insertText('λ')
 atom.commands.add 'atom-text-editor', 'custom:insert-🐍 ': -> atom.workspace.getActiveTextEditor()?.insertText('🐍 ')
 atom.commands.add 'atom-text-editor', 'custom:insert-🐳': -> atom.workspace.getActiveTextEditor()?.insertText('🐳')
+atom.commands.add 'atom-text-editor', 'custom:insert-🔗': -> atom.workspace.getActiveTextEditor()?.insertText('🔗')

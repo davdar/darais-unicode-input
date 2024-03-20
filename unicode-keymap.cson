@@ -390,7 +390,7 @@
   '\\ q e d': 'custom:insert-∎'
   '\\ - /': 'custom:insert-⌿'
   '\\ s i n': 'custom:insert-∿'
-  '\\ l i n k': 'custom:insert-∾'
+  '\\ s h o o k': 'custom:insert-∾'
   '\\ b o w': 'custom:insert-⋈'
   '\\ h o u r': 'custom:insert-⧖'
   '\\ b o w l': 'custom:insert-⋉'
@@ -1716,3 +1716,4 @@
   '\\ h a s k e l l': 'custom:insert-λ'
   '\\ p y t h o n': 'custom:insert-🐍 '
   '\\ d o c k e r': 'custom:insert-🐳'
+  '\\ l i n k': 'custom:insert-🔗'

@@ -2352,7 +2352,7 @@
     <key>phrase</key>
     <string>∾</string>
     <key>shortcut</key>
-    <string>\link</string>
+    <string>\shook</string>
   </dict>
   <dict>
     <key>phrase</key>
@@ -10303,6 +10303,12 @@
     <string>🐳</string>
     <key>shortcut</key>
     <string>\docker</string>
+  </dict>
+  <dict>
+    <key>phrase</key>
+    <string>🔗</string>
+    <key>shortcut</key>
+    <string>\link</string>
   </dict>
 </array>
 </plist>

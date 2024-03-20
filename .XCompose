@@ -389,7 +389,7 @@
 <Multi_key> <q> <e> <d> : "∎"
 <Multi_key> <minus> <slash> : "⌿"
 <Multi_key> <s> <i> <n> : "∿"
-<Multi_key> <l> <i> <n> <k> : "∾"
+<Multi_key> <s> <h> <o> <o> <k> : "∾"
 <Multi_key> <b> <o> <w> <space> : "⋈"
 <Multi_key> <h> <o> <u> <r> : "⧖"
 <Multi_key> <b> <o> <w> <l> : "⋉"
@@ -1715,3 +1715,4 @@
 <Multi_key> <h> <a> <s> <k> <e> <l> <l> : "λ"
 <Multi_key> <p> <y> <t> <h> <o> <n> : "🐍 "
 <Multi_key> <d> <o> <c> <k> <e> <r> : "🐳"
+<Multi_key> <l> <i> <n> <k> : "🔗"

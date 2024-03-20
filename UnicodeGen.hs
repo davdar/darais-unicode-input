@@ -1100,7 +1100,7 @@ codes =
   , lmcode "∎" "qed" "\\blacksquare"
   , code "⌿" "-/" -- "\\notslash"
   , code "∿" "sin"
-  , code "∾" "link"
+  , code "∾" "shook"
   , lmcode "⋈" "bow" "\\bowtie"
   , code "⧖" "hour"
   , lmcode "⋉" "bowl" "\\ltimes"
@@ -2522,4 +2522,7 @@ codes =
   , code "λ" "haskell"
   , code "🐍 " "python"
   , code "🐳" "docker"
+
+  -- other useful emojis
+  , code "🔗" "link"
   ]
