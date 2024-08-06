@@ -23,6 +23,7 @@ main :: IO ()
 main = do
   checkUnique
   writeFile "unicode.el" genEmacsScript
+  writeFile "unicode.nix" genNixVimScript
   writeFile "unicode.vim" genVimScript
   writeFile ".XCompose" genXCompose
   writeFile "DefaultKeyBindings.dict" genDict
@@ -41,6 +42,7 @@ main = do
   putStrLn $ unwords
     [ "unicode files generated:"
     , "unicode.el"
+    , "unicode.nix"
     , "unicode.vim"
     , "latex-unicode.sed"
     , "latex-demo.tex"
@@ -142,6 +144,14 @@ vimEscape = concatMap escapeChar
 
 emacsEscape :: String -> String
 emacsEscape = concatMap escapeChar
+  where
+    escapeChar :: Char -> String
+    escapeChar '\\' = "\\\\"
+    escapeChar '\"' = "\\\""
+    escapeChar c = [c]
+
+nixEscape :: String -> String
+nixEscape = concatMap escapeChar
   where
     escapeChar :: Char -> String
     escapeChar '\\' = "\\\\"
@@ -282,6 +292,18 @@ genVimScript = do
   where
     command :: Code -> String
     command (Code u e _ _) = "noremap! " ++ vimEscape ("\\" ++ e) ++ " " ++ vimEscape u ++ "\n"
+
+genNixVimScript :: String
+genNixVimScript = concat $ intersperse "\n"
+  [ "{"
+  , do
+      code <- codes
+      command code
+    ++ "}"
+  ]
+  where
+    command :: Code -> String
+    command (Code u e _ _) = "  insert.\"" ++ nixEscape ("\\" ++ e) ++ "\" = {\n    action = \"" ++ nixEscape u ++ "\";\n  };" ++ "\n"
 
 genEmacsScript :: String
 genEmacsScript = concat $ intersperse "\n"
