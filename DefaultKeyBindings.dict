@@ -301,6 +301,9 @@
     };
     "E" = {
       "'" = ("insertText:", "É");
+      "." = {
+        "." = ("insertText:", "Ë");
+      };
       "\\^" = ("insertText:", "Ê");
       "`" = ("insertText:", "È");
       "p" = {
@@ -2626,6 +2629,9 @@
     };
     "e" = {
       "'" = ("insertText:", "é");
+      "." = {
+        "." = ("insertText:", "ë");
+      };
       "<" = {
         " " = ("insertText:", "≺");
         "-" = ("insertText:", "⪯");

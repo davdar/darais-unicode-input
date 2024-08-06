@@ -8848,6 +8848,12 @@
   </dict>
   <dict>
     <key>phrase</key>
+    <string>Ë</string>
+    <key>shortcut</key>
+    <string>\E..</string>
+  </dict>
+  <dict>
+    <key>phrase</key>
     <string>Ê</string>
     <key>shortcut</key>
     <string>\E^</string>
@@ -8947,6 +8953,12 @@
     <string>é</string>
     <key>shortcut</key>
     <string>\e&apos;</string>
+  </dict>
+  <dict>
+    <key>phrase</key>
+    <string>ë</string>
+    <key>shortcut</key>
+    <string>\e..</string>
   </dict>
   <dict>
     <key>phrase</key>

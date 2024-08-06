@@ -1472,6 +1472,7 @@ noremap! \A^ Â
 noremap! \C, Ç
 noremap! \E` È
 noremap! \E' É
+noremap! \E.. Ë
 noremap! \E^ Ê
 noremap! \I' Í
 noremap! \I` Ì
@@ -1489,6 +1490,7 @@ noremap! \a^ â
 noremap! \c, ç
 noremap! \e` è
 noremap! \e' é
+noremap! \e.. ë
 noremap! \e^ ê
 noremap! \i' í
 noremap! \i` ì
