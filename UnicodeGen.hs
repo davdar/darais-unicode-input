@@ -26,7 +26,7 @@ main = do
   writeFile "unicode.nix" genNixVimScript
   writeFile "unicode.vim" genVimScript
   writeFile ".XCompose" genXCompose
-  writeFile "DefaultKeyBindings.dict" genDict
+  writeFile "DefaultKeyBinding.dict" genDict
   writeFile "latex-unicode.sed" genSedScript
   writeFile "latex-unicode-escape.sed" genSedEscapeScript
   writeFile "latex-unicode-unescape.sed" genSedUnescapeScript
