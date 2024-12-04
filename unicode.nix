@@ -1172,7 +1172,7 @@
   insert."\\sin" = {
     action = "∿";
   };
-  insert."\\link" = {
+  insert."\\shook" = {
     action = "∾";
   };
   insert."\\bow" = {
@@ -4421,6 +4421,9 @@
   insert."\\E'" = {
     action = "É";
   };
+  insert."\\E.." = {
+    action = "Ë";
+  };
   insert."\\E^" = {
     action = "Ê";
   };
@@ -4471,6 +4474,9 @@
   };
   insert."\\e'" = {
     action = "é";
+  };
+  insert."\\e.." = {
+    action = "ë";
   };
   insert."\\e^" = {
     action = "ê";
@@ -5149,5 +5155,8 @@
   };
   insert."\\docker" = {
     action = "🐳";
+  };
+  insert."\\link" = {
+    action = "🔗";
   };
 }
