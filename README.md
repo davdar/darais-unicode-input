@@ -27,6 +27,19 @@ This is an alternative unicode input mode for Emacs, Vim and Atom.
 - Add `unicode-init.coffee` to your `~/.atom/init.coffee` file.
 - Add `unicode-keymap.cson` to your `~/.atom/keymap.cson` file.
 
+## macOS
+
+For installing system-wide keybindings on macOS.
+
+- Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/).
+- Open Karabiner-Elements.  In `Simple Modifications` → `For all devices`, pick
+  a key to map to `non_us_backslash` (in "Controls and symbols"), e.g.
+  `page_down → non_us_backslash`.
+- Add `DefaultKeyBinding.dict` to `~/Library/KeyBindings` (create the directory
+  if not present).
+- Restart each application for the new bindings to take effect, or log out and
+  log back in to restart all apps.
+
 ## Fonts
 
 - Try `XDejaVuSansMono-*.ttf` for programming with unicode; it's a mashup of
